@@ -1,5 +1,4 @@
-import json 
-
+# create user object data model 
 class User:
     def __init__(self, forename, surname, date_of_birth, location, company) -> None:
         self.forename = forename
